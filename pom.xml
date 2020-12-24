@@ -21,6 +21,12 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>3.1.12.2</version>
             </plugin>
+            <reportPlugins>
+                <reportPlugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                </reportPlugin>
+            </reportPlugins>
         </plugins>
        </build>
 
